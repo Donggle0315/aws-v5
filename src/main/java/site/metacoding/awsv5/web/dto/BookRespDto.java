@@ -13,7 +13,7 @@ public class BookRespDto {
 
     @Builder
     public BookRespDto(Long id, String title, String content, String author) {
-        this.id = id;
+        this.id = id; 
         this.title = title;
         this.content = content;
         this.author = author;
